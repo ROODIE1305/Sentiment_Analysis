@@ -32,9 +32,9 @@ Response
 
 { "feedback": "This project is awesome!", "sentiment": "Positive 😊" }
 
-![alt text](image.png)
-![alt text](image-1.png)
+![A screenshot of the application docs](images/text_sample.png)
 
+![A screenshot of the dashboard docs](images/Output_sample.png)
 🛠️ Tech Used
 
 FastAPI
