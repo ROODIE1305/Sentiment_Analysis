@@ -14,7 +14,7 @@ def read_root():
             "API Docs": "/docs"
         }
     }
-    
+  
 @router.post("/analyze")
 def analyze_feedback(feedback: Feedback):
     sentiment = check_sentiment(feedback.text)
