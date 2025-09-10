@@ -3,7 +3,7 @@ event.preventDefault(); // this finction will allows to prevent the page from ge
 const feedback = document.getElementById("sentiment-feedback-input").value;
 
 try{
-    const response = await fetch("http://localhost:8000/analyze", {
+    const response = await fetch("https://sentiment-analysis-5128.onrender.com/analyze", {
         method: "POST",
         headers: {"content-type": "application/json"},
         body: JSON.stringify({text: feedback})
