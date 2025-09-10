@@ -2,6 +2,15 @@
 
 A simple **FastAPI + NLTK project** that predicts whether feedback is **Positive, Negative, or Neutral**.
 
+“Deployed a Sentiment Analysis project with both backend and frontend:
+
+API (FastAPI on Render): https://sentiment-analysis-5128.onrender.com
+ — exposes /analyze (POST) and /docs.
+
+Frontend (Vercel): https://sentiment-analysis-fjnjtkrai-rudra-khandelwals-projects.vercel.app/
+ — interactive web interface for testing the model.”
+
+ How to use:-
 ---
 
 1. Clone repo & go to backend
