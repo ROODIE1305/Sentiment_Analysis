@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from models import Feedback
-from sentiments import check_sentiment
+from backend.models import Feedback
+from backend.sentiments import check_sentiment
 
 router = APIRouter()
 
