@@ -11,9 +11,9 @@ A simple **FastAPI + NLTK project** that predicts whether feedback is **Positive
 
 2. Setup environment
 
- python -m venv myenv            **Creates your virtual environment.**
- myenv\Scripts\activate   # Windows Or  source myenv/bin/activate   # Mac/Linux         **Activate your virtual environrment.**
- pip install -r requirements.txt             **Install Dependencies**
+python -m venv myenv            **Creates your virtual environment.**
+myenv\Scripts\activate   # Windows Or  source myenv/bin/activate   # Mac/Linux         **Activate your virtual environrment.**
+pip install -r requirements.txt             **Install Dependencies**
 
 3. Run the API
 
