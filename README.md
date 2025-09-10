@@ -5,10 +5,10 @@ A simple **FastAPI + NLTK project** that predicts whether feedback is **Positive
 “Deployed a Sentiment Analysis project with both backend and frontend:
 
 API (FastAPI on Render): https://sentiment-analysis-5128.onrender.com
- — exposes /analyze (POST) and /docs.
+    /docs (FastAPI docs).
 
 Frontend (Vercel): https://sentiment-analysis-fjnjtkrai-rudra-khandelwals-projects.vercel.app/
- — interactive web interface for testing the model.”
+ - interactive web interface(very basic for now) for testing the model.”
 
  How to use:-
 ---
@@ -16,13 +16,13 @@ Frontend (Vercel): https://sentiment-analysis-fjnjtkrai-rudra-khandelwals-projec
 1. Clone repo & go to backend
 
    git clone https://github.com/your-username/sentiment-analysis-api.git
-   cd sentiment-analysis-api/backend
+   -cd sentiment-analysis-api/backend
 
 2. Setup environment
 
-python -m venv myenv            **Creates your virtual environment.**
-myenv\Scripts\activate   # Windows Or  source myenv/bin/activate   # Mac/Linux         **Activate your virtual environrment.**
-pip install -r requirements.txt             **Install Dependencies**
+-python -m venv myenv            **Creates your virtual environment.**
+-myenv\Scripts\activate   # Windows Or  source myenv/bin/activate   # Mac/Linux         **Activate your virtual environrment.**
+-pip install -r requirements.txt             **Install Dependencies**
 
 3. Run the API
 
