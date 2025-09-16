@@ -1,4 +1,6 @@
-<!-- #for user interface -->
+
+
+<!-- #for user interface-->
  <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -6,13 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sentiment Analysis</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
  </head>
  <body>
+   <div class="flex">
     <form id="sentiment-feedback-form">
     <label>Write any feedback to check whether the feedback is Positive 😊, Negative 😞 or Neutral 😐</label>
+     <div id ="input-field">
     <input type="text" id="sentiment-feedback-input" required>
     <input type="submit" value="Check sentiment">
+    </div>
     </form>
+   </div>
 
     <p id="result"></p>
 <script src="script.js"></script></script>
