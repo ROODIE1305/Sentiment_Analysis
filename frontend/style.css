@@ -60,3 +60,11 @@ label{
     margin-bottom: 10px;
     text-align: center;
 }
+
+#result{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(241, 247, 247);
+}

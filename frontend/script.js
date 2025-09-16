@@ -11,7 +11,7 @@ try{
 
     const data= await response.json();
     document.getElementById("result").textContent =
-    `Feedback: ${data.feedback} -> Sentiment: ${data.sentiment}`;
+    `Feedback: ${data.feedback} ➡️ Sentiment: ${data.sentiment}`;
 }catch (error){
     console.error("Error: ",error);
     document.getElementById("result").textContent = "Error in the backend side.";
