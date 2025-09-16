@@ -7,7 +7,7 @@ A simple **FastAPI + NLTK project** that predicts whether feedback is **Positive
 API (FastAPI on Render): https://sentiment-analysis-5128.onrender.com
  — exposes /analyze (POST) and /docs.
 
-Frontend (Vercel): https://sentiment-analysis-fjnjtkrai-rudra-khandelwals-projects.vercel.app/
+Frontend (Vercel): https://sentiment-analysis-five-beta.vercel.app/
  — interactive web interface for testing the model.”
 
  How to use:-
