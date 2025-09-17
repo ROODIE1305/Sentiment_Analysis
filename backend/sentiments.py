@@ -1,4 +1,5 @@
 import nltk
+#to download vader_lexicon while uploading
 nltk.download("vader_lexicon")
 from nltk.sentiment import SentimentIntensityAnalyzer
 # Initialize analyzer once (good for performance)
